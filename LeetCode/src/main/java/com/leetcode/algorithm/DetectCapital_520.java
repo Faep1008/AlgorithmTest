@@ -17,7 +17,7 @@ package com.leetcode.algorithm;
   *如果单词不只含有一个字母，只有首字母大写， 比如 "Google"。
   *否则，我们定义这个单词没有正确使用大写字母。
  */
-public class DetectCapital {
+public class DetectCapital_520 {
 	
 	/**
 	 * A->65
@@ -56,7 +56,7 @@ public class DetectCapital {
     }
 	
 	public static void main(String[] args) {
-		boolean ret = new DetectCapital().detectCapitalUse("GSole");
+		boolean ret = new DetectCapital_520().detectCapitalUse("GSole");
 		System.out.println(ret);
 	}
 

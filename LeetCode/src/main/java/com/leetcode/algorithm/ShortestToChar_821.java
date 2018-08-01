@@ -15,7 +15,7 @@ package com.leetcode.algorithm;
   *C 是一个单字符，且保证是字符串 S 里的字符。
   *S 和 C 中的所有字母均为小写字母。
  */
-public class ShortestToChar {
+public class ShortestToChar_821 {
 
 	public int[] shortestToCharTest(String S, char C) {
 		int[] distances = new int[S.length()];
@@ -53,7 +53,7 @@ public class ShortestToChar {
 	public static void main(String[] args) {
 		String S = "aaba";
 		char C = 'b';
-		int[] d = new ShortestToChar().shortestToCharTest(S, C);
+		int[] d = new ShortestToChar_821().shortestToCharTest(S, C);
 		for(int i=0;i<d.length;i++){
 			System.out.print(d[i]+",");
 		}

@@ -17,7 +17,7 @@ import java.util.List;
   *2. 如果 n 是5的倍数，输出“Buzz”；
   *3.如果 n 同时是3和5的倍数，输出 “FizzBuzz”。
  */
-public class FizzBuzz {
+public class FizzBuzz_412 {
 
 	public List<String> fizzBuzz(int n) {
 
@@ -37,6 +37,6 @@ public class FizzBuzz {
 	}
 	
 	public static void main(String[] args) {
-		System.out.println(new FizzBuzz().fizzBuzz(15));
+		System.out.println(new FizzBuzz_412().fizzBuzz(15));
 	}
 }

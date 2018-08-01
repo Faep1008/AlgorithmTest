@@ -18,7 +18,7 @@ package com.leetcode.algorithm;
   *注意这五个元素可为任意顺序。
   *你不需要考虑数组中超出新长度后面的元素。
  */
-public class RemoveArrayElement {
+public class RemoveArrayElement_27 {
 
 	public int removeElement(int[] nums, int val) {
 		int index = nums.length - 1;
@@ -38,7 +38,7 @@ public class RemoveArrayElement {
 	public static void main(String[] args) {
 		int[] nums = new int[] { 0, 1, 2, 2, 3, 0, 4, 2 };
 		int val = 2;
-		int count = new RemoveArrayElement().removeElement(nums, val);
+		int count = new RemoveArrayElement_27().removeElement(nums, val);
 		System.out.println(count);
 		for (int i = 0; i < count; i++) {
 			System.out.print(nums[i]);

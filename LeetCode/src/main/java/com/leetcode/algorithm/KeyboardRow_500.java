@@ -19,7 +19,7 @@ import java.util.Map;
  /**
   *[题目描述]给定一个单词列表，只返回可以使用在键盘同一行的字母打印出来的单词。键盘如下图所示。
  */
-public class KeyboardRow {
+public class KeyboardRow_500 {
 
 	public String[] findWords(String[] words) {
 		
@@ -83,7 +83,7 @@ public class KeyboardRow {
 
 	public static void main(String[] args) {
 		String[] words = new  String[]{"Hello", "Alaska", "Dad", "Peace"};
-		String[] ret = new KeyboardRow().findWords(words);
+		String[] ret = new KeyboardRow_500().findWords(words);
 		List<String> r = Arrays.asList(ret);
 		System.out.println(r);
 	}
